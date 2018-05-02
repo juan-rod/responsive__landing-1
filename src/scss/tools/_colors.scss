@@ -1,0 +1,13 @@
+// colors
+$ghost-white: #fcfdff;
+$smoky-black: #4c4e4d;
+$salmon-ish: #FF806F;
+
+// cc map
+$colors:(
+  default:(
+    bg: $ghost-white,
+    txt: $smoky-black,
+    link:$salmon-ish
+  )
+);

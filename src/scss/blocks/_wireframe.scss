@@ -1,0 +1,68 @@
+$nav-height: 4em;
+
+.wireframe{
+  height:100vh;
+  width:auto;
+  h1{
+    @include fluid-type(34px, 42px);
+  }
+  h2{
+    @include fluid-type(24px, 32px);
+  } 
+  p{
+    @include fluid-type(16px, 22px);
+  }
+  .maxW_1199{
+    max-width: 1199px;
+    width: 100%;
+  }
+  .navigation{
+    @include flexCenter;
+    @include navigation;
+    &__content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      @include navLinks;
+    }
+  }
+  .hero{
+    @include flexCenter;
+    margin-top:4em;
+    height: calc(100vh - #{$nav-height});
+    &__content{
+      @include flexCenter;
+      flex-direction: row;
+      height:100%;
+      .hero-text, .hero-form{
+        width:100%;
+        height:80%;
+      }
+      @media only screen and (max-width: 600px)  {
+        flex-direction: column;
+      }
+    }
+  }
+  .body{
+    @include flexCenter;
+    height: 500px;
+    &__content{
+      @include flexCenter;
+      //if you want sections in one row add flex-direction:row;
+      // flex-direction: row;
+      height:100%;
+      .section1, .section2, .section3{
+        width:100%;
+        height:80%;
+      }
+    }
+  }
+  .footer{
+    @include flexCenter;
+    height:150px;
+    &__content{
+      height:100%;
+    }
+  }
+}

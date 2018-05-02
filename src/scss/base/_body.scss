@@ -1,0 +1,16 @@
+body {
+  color: cc(txt);
+  background-color: cc(bg);
+  .border{
+    border:1px solid red;
+  }
+  .border2{
+    border:2px dotted blue;
+  }
+  .border3{
+    border:1px solid pink;
+  }
+  .border4{
+    border:1px solid black;
+  }
+}
