@@ -37,7 +37,7 @@ You can also just copy and paste it to fit your own personal code structure.
 
 ## Authors
 
-* **Juan Rodriguez** - *Initial work* - [juanrod](www.juanrod.co)
+* **Juan Rodriguez** - *Initial work* - [juanrod](http://www.juanrod.co)
 
 
 ## License
