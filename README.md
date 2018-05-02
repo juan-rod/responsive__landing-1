@@ -4,11 +4,11 @@ A wireframe for responsive landing pages using HTML, SASS, and Webpack
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Just a simple wireframe of a responsive site with sass mixins. The main page is centered at 1199px but feel free to adjust it to your needs!
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Need NPM
 
 ```
 Give examples
@@ -27,19 +27,8 @@ npm install
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
+You can also just copy and paste it to fit your own personal code structure.
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -50,7 +39,6 @@ Add additional notes about how to deploy this on a live system
 
 * **Juan Rodriguez** - *Initial work* - [juanrod](www.juanrod.co)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -58,6 +46,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Nashville Software School -- alma mater
+* Beyonce 
+* Mom
