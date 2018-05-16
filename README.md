@@ -17,7 +17,7 @@ Give examples
 ### Installing
 
 ```
-git clone https://gitlab.themediapanel.com/juanrod/responsive__wireframe--landing.git
+git clone https://github.com/juan-rod/responsive__landing-1/edit/master/README.md
 ```
 ```
 cd responsive__wireframe--landing
